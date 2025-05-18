@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Solutions</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Solutions</h1>
+        <div class="solution">
+            <p><strong>Solution 1 :</strong> Agrandir la map pour éviter la superposition d'éléments.</p>
+            <p><strong>Solution 2 :</strong> Ajouter un script vérifiant qu'aucun objet n'occupe déjà une position avant d'y placer un nouvel élément.</p>
+            <p><strong>Solution 3 :</strong> Utiliser des collisions Shape2D pour empêcher le personnage de passer en dessous des ressources de manière incohérente.</p>
+            <p><strong>Solution 4 :</strong> Diviser le sol en plusieurs types de tuiles et les afficher aléatoirement pour briser les schémas répétitifs.</p>
+            <p><strong>Solution 5 :</strong> Corriger la référence de position en prenant le bon point de départ dans le nœud Player, ce qui a rendu le comportement du mob beaucoup plus cohérent.
+                Poursuite infinie du joueur par le mob (IA)</p>
+            <p><strong>Solution 6 :</strong> Définir une distance limite pour empêcher le mob de se coller au joueur, garantissant ainsi un comportement plus naturel.
+                Attaque infinie une fois le joueur atteint (IA)</p>
+            <p><strong>Solution 7 :</strong>  Introduire un timer pour limiter la durée de l’attaque et une variable d’état permettant de sortir du mode attaque lorsque le joueur se déplace.
+                Problème de structure des nodes dans l’inventaire</p>
+            <p><strong>Solution 8 :</strong> Restructurer les nodes et intégrer un nœud CanvasLayer pour que l’inventaire soit correctement positionné et suive le joueur.
+                Détection insuffisante des erreurs par l’IDE de Godot (Inventaire)</p>
+            <p><strong>Solution 9 :</strong> Effectuer des tests réguliers en lançant le projet afin d’identifier et de corriger rapidement les erreurs.
+                Problème de détection des touches (Inventaire)</p>
+            <p><strong>Solution 10 :</strong> Réajuster la configuration des touches et tester leur détection pour assurer un contrôle fluide de l’ouverture et de la fermeture de l’inventaire.
+                Positionnement incorrect de l’inventaire sur la carte</p>
+            <p><strong>Solution 11 :</strong>  Ajouter un nœud CanvasLayer dédié à l’inventaire pour garantir que celui-ci reste toujours devant le joueur et bien positionné.
+                Problème d’accès aux slots de l’inventaire (gestion des ressources)</p>
+            <p><strong>Solution 12 :</strong> Revoir la méthode de chargement et de référencement des ressources en utilisant des chemins d’accès absolus et en vérifiant leur existence avant utilisation.</p>
+        </div>
+        <button class="home-button" onclick="window.location.href='index.html'">Retour à l'accueil</button>
+    </div>
+</body>
+</html>

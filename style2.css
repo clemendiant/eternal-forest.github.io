@@ -1,0 +1,90 @@
+/* Style global du body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Conteneur principal agrandi */
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px 60px; /* Augmentation du padding */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 15px; /* Bordures plus arrondies */
+    width: 90%;
+    max-width: 1500px; /* Largeur maximale plus grande */
+    border: 2px solid #4CAF50; /* Bordure verte */
+}
+
+/* Titre agrandi */
+h1 {
+    font-size: 3rem; /* Augmentation de la taille du titre */
+    margin-bottom: 30px; /* Espacement plus grand sous le titre */
+    color: #4CAF50; /* Titre en vert */
+}
+
+/* Mise en page des membres */
+.members {
+    display: flex;
+    justify-content: space-between; /* Espacement égal entre les membres */
+    gap: 30px; /* Espace entre les images */
+}
+
+/* Style de chaque membre */
+.member {
+    text-align: center;
+    width: 18%; /* Largeur ajustée pour 5 images sur la même ligne */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Image des membres plus grandes */
+.member-image {
+    width: 100%;          /* Assure que l'image occupe toute la largeur de son conteneur */
+    height: 350px;        /* Hauteur des images ajustée */
+    border-radius: 15px;  /* Bordures arrondies */
+    border: 3px solid #ddd;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.member:hover .member-image {
+    transform: scale(1.1); /* Zoom plus important au survol */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Ombre plus marquée */
+}
+
+/* Lien autour des membres */
+.member a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.member p {
+    margin-top: 15px; /* Espacement plus important */
+    font-size: 1.4rem; /* Agrandissement du texte sous l'image */
+    color: #333;
+    font-weight: bold;
+}
+
+/* Bouton retour à l'accueil plus grand */
+.home-button {
+    display: inline-block;
+    background-color: #4CAF50; /* Bouton vert */
+    color: white;
+    border: none;
+    padding: 15px 30px; /* Augmentation de la taille du bouton */
+    font-size: 1.3rem;  /* Taille du texte agrandie */
+    border-radius: 10px; /* Bordures plus arrondies */
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 30px; /* Espacement plus grand entre le bouton et les membres */
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #45a049; /* Teinte plus foncée du vert au survol */
+}

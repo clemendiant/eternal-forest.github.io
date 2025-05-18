@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Conteneur principal */
+.container {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style des membres */
+.members {
+    display: flex;
+    flex-wrap: wrap; /* Pour que les éléments passent à la ligne suivante s'il n'y a pas assez d'espace */
+    justify-content: space-around; /* Aligne les éléments avec de l'espace entre eux */
+    gap: 20px; /* Espacement entre chaque membre */
+}
+
+.member {
+    flex: 1 1 calc(25% - 20px); /* Chaque membre occupe 25% de la largeur de son conteneur */
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.member h2 {
+    margin-top: 0;
+}
+
+/* Bouton retour */
+.home-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home-button:hover {
+    background-color: #45a049;
+}

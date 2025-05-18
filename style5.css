@@ -1,0 +1,118 @@
+/* Style global */
+body {
+    font-family: 'Poppins', sans-serif; /* Police Poppins */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Mise en page de la page storytelling */
+.storytelling-page {
+    background-color: #fff;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px; /* Coins arrondis */
+    overflow: hidden;
+    padding: 30px;
+    text-align: center;
+    border: 5px solid #4CAF50; /* Bordure colorée verte */
+}
+
+/* En-tête avec logo et texte */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.text-left {
+    flex: 1;
+    text-align: left;
+}
+
+.eternal-forest-title {
+    font-size: 3rem;
+    color: #4CAF50;
+    font-weight: 700;
+    margin: 0;
+}
+
+.logo-container {
+    flex: 0 0 auto;
+}
+
+.logo {
+    width: 100px; /* Logo plus grand */
+    height: auto;
+}
+
+/* Section storytelling */
+.story {
+    text-align: left;
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.story p {
+    margin-bottom: 20px;
+}
+
+/* Bouton Retour à l'Accueil */
+.back-to-home {
+    margin-top: 30px;
+}
+
+.btn-back-home {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-back-home:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+.footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1rem;
+    color: #888;
+}
+
+.footer p {
+    margin: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .story {
+        font-size: 1rem;
+    }
+
+    .eternal-forest-title {
+        font-size: 2rem;
+    }
+
+    .logo {
+        width: 80px; /* Réduction du logo pour les petits écrans */
+    }
+
+    .btn-back-home {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+}
